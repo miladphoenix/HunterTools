@@ -39,6 +39,6 @@ jobs:
     - name: Connect To RDP  CPU 2 Core - 7GB Ram - 256 SSD(SirMeti).
       run: cmd /c start.bat
     - name: Install Winrar
-      run: cmd C:\Users\Public\Desktop\WinrarSirMeti.exe WinrarSirMeti.exe /s
+      run: cmd /c C:\Users\Public\Desktop\WinrarSirMeti.exe WinrarSirMeti.exe /s
     - name: SirMeti.
       run: cmd /c loop.bat
